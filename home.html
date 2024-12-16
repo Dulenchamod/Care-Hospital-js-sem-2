@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="contact-number">
+        <p><b><a href="tel:8899">Emergency Call - 8899</a></b></p>
+    </div>
+    <div class="logo-container">
+        <img src="pictures/logo.png" alt="logo main" class="logo">
+        <h2 class="site-name-01">CARE</h2>
+        <h2 class="site-name-02">HOSPITALS</h2>
+    </div>
+
+<!--nav bar 01-->    
+    <nav class="navbar">
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a> 
+        <a href="contacts.html">CONTACTS</a>  
+        <a href="pharmacy.html">PHARMACY</a> 
+        <a href="doctors.html">DOCTORS</a> 
+    </nav>
+</header>
+
+<br><br><br><br><br><br><br>
+
+<div class="container">
+    <div class="wrapper">
+        <img src="pictures/slide img new 1.png" alt="Slide Image 1">
+        <img src="pictures/slide img new 2.png" alt="Slide Image 2">
+        <img src="pictures/slide img new 3.png" alt="Slide Image 3">
+        <img src="pictures/slide img new 4.png" alt="Slide Image 4">
+    </div>
+</div>
+
+<br><br>
+
+<!-- Calendar icon -->
+
+<div class="action-buttons">
+
+    <a href="#" class="action-box">
+        <div class="box-content">
+            <div class="icon">&#128197;</div> 
+            <h3>Book Appointment</h3>
+        </div>
+    </a>
+<!-- Stethoscope icon -->  
+
+    <a href="#" class="action-box">
+        <div class="box-content">
+            <div class="icon">&#128657;</div> 
+            <h3>Book Health Check-Up</h3>
+        </div>
+    </a>
+<!-- Mobile phone icon --> 
+
+    <a href="#" class="action-box">
+        <div class="box-content">
+            <div class="icon">&#128241;</div> 
+            <h3>Consult Online</h3>
+        </div>
+    </a>
+<!-- Pill icon -->    
+
+    <a href="#" class="action-box">
+        <div class="box-content">
+            <div class="icon">&#128138;</div> 
+            <h3>Buy Medicine</h3>
+        </div>
+    </a>
+<!-- Hospital icon -->  
+
+    <a href="#" class="action-box">
+        <div class="box-content">
+            <div class="icon">&#127963;</div> 
+            <h3>Find Hospital</h3>
+        </div>
+    </a>
+
+<!-- File icon -->
+ 
+    <a href="#" class="action-box">
+        <div class="box-content">
+            <div class="icon">&#128196;</div> 
+            <h3>View Health Record</h3>
+        </div>
+    </a>
+</div>
+<br><br><br><br>
+
+<div class="navbar2">
+
+<div class="tabs">
+    <button class="tablink active" onclick="openTab(event, 'Specialities')">Specialities</button>
+    <button class="tablink" onclick="openTab(event, 'Procedures')">Procedures</button>
+    <button class="tablink" onclick="openTab(event, 'ProHealth')">ProHealth</button>
+</div>
+
+<div id="Specialities" class="tabcontent" style="display: block;">
+    <div class="text-service-topic">
+        <h2><b><u><h1>Your treatment journey at Care Hospitals International Care Center,<br></h1><br>
+            <h2> Sri Lanka We ensure you receive the best possible care throughout your recovery journey.</h2></u></b></h2>
+    </div><br>
+    <div class="service-section">
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    </div>
+</div>
+
+<div id="Procedures" class="tabcontent">
+    <div class="text-service-topic">
+        <h2><b><u>Information</u></u></b></h2>
+    </div>
+    <div class="service-section">
+        <div class="service-image">
+            <img src="pictures/Specialities.01doc.img.jpg" alt="clinical services Image">
+        </div>
+        <div class="text-service">
+            <p>
+                Apollo Hospitals has dedicated Centres of Excellence...<br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu turpis in tortor vehicula consectetur.<br>
+                Phasellus scelerisque, ligula a ultricies convallis, velit urna feugiat erat, non tempor lorem orci id quam.
+            </p>
+        </div>
+    </div>
+</div> <!-- This closing tag was missing -->
+
+<div id="ProHealth" class="tabcontent">
+    <div class="text-service-topic">
+        <h2><b><u>ProHealth Programs</u></b></h2>
+    </div>
+    <div class="service-section">
+        <div class="service-image">
+            <img src="pictures/Specialities.01doc.img.jpg" alt="clinical services Image">
+        </div>
+        <div class="text-service">
+            <p>
+                Apollo Hospitals has dedicated Centres of Excellence...<br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu turpis in tortor vehicula consectetur.<br>
+                Phasellus scelerisque, ligula a ultricies convallis, velit urna feugiat erat, non tempor lorem orci id quam.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        const tabcontent = document.getElementsByClassName("tabcontent");
+        for (let i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        const tablinks = document.getElementsByClassName("tablink");
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+<br>
+<section class="Care-hospitals">
+    <div class="container">
+        <h2>Why Choose CARE-HOSPITAL ?</h2>
+        <p>Established by Dr Pradeep C Silva in 1988, Care-hospitals has a robust presence across the healthcare ecosystem. From routine wellness & preventive health care to innovative life-saving treatments and diagnostic services, Care-Hospitals has touched more than 22 million lives from over 150 countries.</p>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <img src="pictures/hospital-icon.png" alt="Hospitals Icon">
+                <h3>73+</h3>
+                <p>Largest private healthcare network of Hospitals</p>
+            </div>
+            <div class="stat-item">
+                <img src="pictures/clinic-icon.png" alt="Clinics Icon">
+                <h3>700+</h3>
+                <p>Largest private network of clinics across Srilanka</p>
+            </div>
+            <div class="stat-item">
+                <img src="pictures/diagnostic-icon.png" alt="Diagnostic Centres Icon">
+                <h3>2,300+</h3>
+                <p>Diagnostic centres across Srilanka</p>
+            </div>
+            <div class="stat-item">
+                <img src="pictures/pharmacy-icon.png" alt="Pharmacies Icon">
+                <h3>6,000+</h3>
+                <p>Pharmacies</p>
+            </div>
+            <div class="stat-item">
+                <img src="pictures/pincode-icon.png" alt="Pin Codes Icon">
+                <h3>10,000+</h3>
+                <p>Pin codes Served across Srilanka</p>
+            </div>
+            <div class="stat-item">
+                <img src="pictures/research-icon.png" alt="Research Icon">
+                <h3>15+</h3>
+                <p>Dedicated research centres</p>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer">
+        <div class="footer-col-1">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+        </div>
+            <div class="footer-logo-container">
+                <img src="pictures/logo.png" alt="logo main">
+            </div>
+
+            <div class="footer-col">
+                <ul>
+                    <li><a href="#">privacy policy</a></li>
+            </div>
+                
+<div class="footer-end">
+    <h3>© 2024 ·HEALTh PULSE Hospitals – Sri Lanka · All rights reserved</h3>
+</div>      
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
